@@ -1,0 +1,32 @@
+body
+{
+	background-color:black;
+	background-repeat: no-repeat;
+}
+h3 {color:white;
+	-webkit-user-select: none;
+	text-align: center
+}
+
+#SimpleDiv
+{
+color:white;
+	-webkit-user-select: none;
+}
+
+#app
+{
+color:white;
+	-webkit-user-select: none;
+	text-align: center	
+}
+
+#buttdiv 
+{
+	color:white;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+

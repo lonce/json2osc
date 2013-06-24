@@ -1,0 +1,6 @@
+*~
+*.swp
+*.lnk
+*.link
+node_modules
+

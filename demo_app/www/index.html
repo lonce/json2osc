@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <title>Title</title>
+        <meta name="description" content="action messaging">
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js"></script>
+    </head>
+    <body >
+        <div id="app">
+            <h3> OSC server tester  </h3>
+        </div>
+            <div id="SimpleDiv">
+            	First set server numbers, <br>
+                then push buttons to first configure then test: <br> <br>
+            </div>
+            <div id="buttdiv">
+                <button type="button" id="serverConfigureButton">Configure OSC Server</button>
+                &nbsp &nbsp OSC server URL: <input  id="serverAddress" value="127.0.0.1">
+                &nbsp &nbsp OSC server PORT: <input  id="serverPort" value="8000"><br> <br>
+
+                <button type="button" id="testButton">Test OSC send message</button>
+                &nbsp &nbsp osc message: <input  id="oscMessage" value="/test/1/play, 440"><br> 
+            </div>
+    </body>
+</html>
+
